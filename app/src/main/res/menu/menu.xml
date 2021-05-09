@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu"
+        android:icon="@drawable/ic_menu_icon"
+        android:title="@string/menu"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/flight"
+        android:icon="@drawable/ic_flight"
+        android:title="@string/flight"
+        app:showAsAction="collapseActionView"/>
+
+    <item android:id="@+id/hotel"
+        android:icon="@drawable/ic_hotel"
+        android:title="@string/hotel"
+        app:showAsAction="collapseActionView">
+
+        <menu>
+            <item android:id="@+id/spain"
+                android:title="@string/spain"/>
+            <item android:id="@+id/italy"
+                android:title="@string/italy"/>
+        </menu>
+    </item>
+
+</menu>

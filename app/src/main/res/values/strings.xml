@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">menu</string>
+    <string name="help">help</string>
+    <string name="new_game">new_game</string>
+    <string name="hotel">Hotel</string>
+    <string name="flight">Flight</string>
+    <string name="menu">menu</string>
+    <string name="spain">Spain</string>
+    <string name="italy">Italy</string>
+</resources>
